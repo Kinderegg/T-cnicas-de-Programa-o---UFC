@@ -1,22 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+App em Java que efetua as 4 operações dados 2 números
  */
 package td01;
 
 import java.util.Scanner;
 
-/**
- *
- * @author 02
- */
 public class Questao01 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
                 
         System.out.print("Digite o primeiro valor: ");
