@@ -16,7 +16,7 @@ public class Questao01 {
         System.out.print("Digite o segundo valor: ");
         int num2 = entrada.nextInt();
         
-        System.out.print("Qual operação s ser realizada? 1 - Soma ou 2 - Subtração ou 3 - Multriplicação ou 4 - Divisão: ");
+        System.out.print("Qual operação s ser realizada? 1 - Soma ou 2 - Subtração ou 3 - Multiplicação ou 4 - Divisão: ");
         int op = entrada.nextInt();
         
         switch(op){
