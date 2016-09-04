@@ -10,5 +10,5 @@ package td01;
  * @author José Lopes
  */
 public class Questao02 {
-    System.out.println("Arquivo vazio");
+    
 }
