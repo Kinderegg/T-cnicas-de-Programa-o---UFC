@@ -1,8 +1,8 @@
 /*
-App em Java que efetua as 4 operações dados 2 números
+ * Questão 01 TD01 - Técnicas de programação.
+ * @author José Lopes
  */
 package td01;
-
 import java.util.Scanner;
 
 public class Questao01 {
