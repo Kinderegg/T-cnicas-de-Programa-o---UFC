@@ -1,14 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package td01;
-
-/**
- *
+ * Questão 02 TD01 - Técnicas de programação.
  * @author José Lopes
  */
+package td01;
 import java.util.Scanner;
 
 public class Questao02 {
@@ -26,7 +20,7 @@ public class Questao02 {
         //inicia o programa
         System.out.println("----------- BANCO -----------");
         System.out.print("Olá correntista. Insira seu nome: ");
-        nome = input.next();
+        nome = input.nextLine();
         
         System.out.printf("Olá %s!\n", nome);
         System.out.print("Insira seu saldo inicial (em reais): R$ ");
@@ -36,7 +30,7 @@ public class Questao02 {
         
         while (opcao != 3){ //enquanto a opção for diferente de 3 o programa continua a inserir ou debitar valores
             
-        System.out.print("O que deseja fazer? (1 - Débito / 2 - Crédito / 3 - Consultar saldo e encerrar aplicativo): ");
+        System.out.print("O que deseja fazer? (1 - Débito / 2 - Crédito / 3 - Encerrar aplicativo): ");
         opcao = input.nextInt();
         
             switch(opcao){
