@@ -10,5 +10,8 @@ package td01;
  * @author José Lopes
  */
 public class Questao02 {
+    public static void main (String[] args) {
+        System.out.println("Olá mundo!");
+    }
     
 }
