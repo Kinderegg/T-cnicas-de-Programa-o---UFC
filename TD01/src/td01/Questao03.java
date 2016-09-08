@@ -1,5 +1,5 @@
 /*
- * Questão 02 TD01 - Técnicas de programação.
+ * Questão 03 TD01 - Técnicas de programação.
  * @author José Lopes
  */
 package td01;
