@@ -1,12 +1,12 @@
 package TD04;
 
-public class Erro extends Exception{
+public class Questão1_erro extends Exception{
     
-    public Erro(){
+    public Questão1_erro(){
         super("Erro.. O número escolhido não pode ser negativo!!");
     }
     
-    public Erro(String msg){
+    public Questão1_erro(String msg){
         super(msg);
     }
 }
