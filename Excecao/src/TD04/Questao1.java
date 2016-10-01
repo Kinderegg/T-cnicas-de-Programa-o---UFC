@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Questao1 {
     
-    public static double raiz(double numero) throws Erro {
+    public static double raiz(double numero) throws Questão1_erro {
 		if(numero < 0){
-                    throw new Erro();
+                    throw new Questão1_erro();
                 }
 		return Math.sqrt(numero);
     }
@@ -20,7 +20,7 @@ public class Questao1 {
             double numero = novo.nextInt();
             double raiz = raiz(numero); 
             System.out.println("A raiz do número escolhido é: "+raiz);
-        } catch(Erro e) {
+        } catch(Questão1_erro e) {
             System.err.println(e.getMessage());
         } finally {
             System.out.println("FIM.");
